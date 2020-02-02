@@ -13,8 +13,8 @@ include 'replysingle.php';
 $pass_signature = true;
 
 // set LINE channel_access_token and channel_secret
-$channel_access_token = "";
-$channel_secret = "";
+$channel_access_token = "efD8vjQ8+BbX4BZLJ3PRAuX+uMD96kEdUY9sjvLF13uQHz9tSGL1+LGWR8/1oIMbwJ76nJFOxpRvKw8F6/JoNI254MzziMO9xkstMNVTFwFoELSlNCB9cKB/04IkUeIoGLNyfXPEgI8mC20MJfxs0gdB04t89/1O/w1cDnyilFU=";
+$channel_secret = "13e59540a3b373a2242db6caa6c8d233";
 
 // inisiasi objek bot
 $httpClient = new CurlHTTPClient($channel_access_token);
